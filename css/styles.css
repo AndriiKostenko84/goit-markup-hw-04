@@ -240,11 +240,7 @@ ul {
 .team {
   background-color: #f5f4fa;
 }
-.position {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  
-}
+
 .heading-name {
   
   margin-bottom: 10px;
@@ -273,10 +269,40 @@ ul {
 .photo-heading {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.position {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
 
 /* -----Our Team----- */
 
-/* ----footer---- */
+/* -----Our Clients----- */
+
+
+
+.clients-list {
+display: flex;
+padding: 0;
+margin: 0;
+/* outline: 1px solid red; */
+
+}
+
+.clients {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+    width: 170px;
+    height: 92px;
+    left: 215px;
+    top: 2490px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+/* -----Our Clients----- */
+/* ---Ffooter---- */
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
