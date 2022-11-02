@@ -70,8 +70,7 @@ ul {
 }
 
 .logo-header {
- 
-  color: var(--main-title-color);
+   color: var(--main-title-color);
 }
 
 .header-list{
@@ -80,7 +79,7 @@ ul {
   gap: 50px;
 }
 
-.header-link {
+.header-nav-link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -93,20 +92,20 @@ ul {
   color: var(--main-title-color);
 }
 
-.header-nav .header-link:hover,
-.header-nav .header-link:focus {
+.header-nav .header-nav-link:hover,
+.header-nav .header-nav-link:focus {
   color: var(--accent-color);
   
 }
 
-.flex-contacts-header {
+.header-group {
   display: flex;
-  margin-left: auto;
+  margin-left: 344px;
   gap: 50px;
 }
 
 
-.contacts .contacts-item {
+.contacts .header-contacts {
   padding-left: auto;
   font-weight: 500;
   font-size: 14px;
@@ -114,17 +113,25 @@ ul {
   letter-spacing: 0.02em;
   color: var(--brand-color);
 }
-.contacts .contacts-item:hover,
-.contacts .contacts-item:focus {
+.contacts .header-contacts:hover,
+.contacts .header-contacts:focus {
   color: var(--accent-color);
 }
 /* ----Header------- */
 
 /* -------Hero------- */
 .hero {
+  width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-title {
   width: 696px;
@@ -262,6 +269,9 @@ ul {
   display: flex;
   gap: var(--indent);
   background-color: var(--third-color);
+}
+.photo-heading {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* -----Our Team----- */
