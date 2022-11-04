@@ -133,7 +133,10 @@ ul {
 .envelope-icon {
   fill: currentColor;
   
+}
 
+.phone-icon {
+  fill: currentColor;
 }
 
 
@@ -317,8 +320,17 @@ ul {
   width: 44px;
   height: 44px;
   border-radius: 50px;
-  background-color: tomato;
+  background-color: var(--third-color);
 
+}
+
+
+.socials-icon {
+  fill: #AFB1B8;
+}
+.social-link:hover .socials-icon,
+.social-link:focus .socials-icon {
+  fill:var(--accent-color) ;
 }
 
 /* -----Our Team----- */
