@@ -271,6 +271,10 @@ ul {
 .team {
   background-color: #f5f4fa;
 }
+.team-photo {
+  display: flex;
+  gap: var(--indent);
+}
 
 .heading-name {
 
@@ -281,8 +285,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-  background-color: var(--third-color);
-}
+  }
 
 .job-heading {
   font-size: 16px;
@@ -290,17 +293,16 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color);
-  background-color: var(--third-color);
 }
 
-.photo-list {
-  display: flex;
-  gap: var(--indent);
-  background-color: var(--third-color);
-}
+
 
 .photo-heading {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--third-color);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+0px 1px 1px rgba(0, 0, 0, 0.14), 
+0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .position {
@@ -506,12 +508,25 @@ ul {
 .button .button-projects:focus {
   color: var(--third-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+  0px 1px 2px rgba(0, 0, 0, 0.08), 
+  0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-item {
   display: flex;
   flex-wrap: wrap;
   gap: var(--indent);
+}
+
+.filter-item .example-card:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+  0px 4px 4px rgba(0, 0, 0, 0.06), 
+  1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.example-card {
+  background: var(--third-color);
+
 }
 
 .filter-projects {
