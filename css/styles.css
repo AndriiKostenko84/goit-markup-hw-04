@@ -379,6 +379,10 @@ ul {
   fill: var(--accent-color);
 }
 
+.clients:hover,
+.clients:focus {
+  border-color: var(--accent-color);
+}
 
 /* -----Our Clients----- */
 
