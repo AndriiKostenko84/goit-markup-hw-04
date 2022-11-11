@@ -337,7 +337,7 @@ ul {
   height: 44px;
   border-radius: 50px;
   background-color: var(--third-color);
-  color: var();
+  color: var(--icons-color);
 }
 
 .socials-icon {
@@ -482,9 +482,9 @@ ul {
   fill: currentColor;
 }
 
-.footer-social-link:hover .footer-social-icon,
-.footer-social-link:focus .footer-social-icon {
-  fill: var(--accent-color);
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background: var(--accent-color);
 }
 
 /* ----footer---- */
