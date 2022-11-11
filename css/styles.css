@@ -258,6 +258,7 @@ ul {
   fill: var(--accent-color);
 }
 
+
 /* -----Features------ */
 
 /* -----Work----- */
@@ -302,6 +303,7 @@ ul {
 }
 
 .job-heading {
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -325,7 +327,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 .social-link {
   display: flex;
@@ -335,14 +337,16 @@ ul {
   height: 44px;
   border-radius: 50px;
   background-color: var(--third-color);
+  color: var();
 }
 
 .socials-icon {
-  fill: var(--icons-color);
+  fill: currentColor;
 }
-.social-link:hover .socials-icon,
-.social-link:focus .socials-icon {
-  fill: var(--accent-color);
+.social-link:hover,
+.social-link:focus  {
+  background-color: var(--accent-color);
+  color: var(--third-color);
 }
 
 /* -----Our Team----- */
@@ -370,12 +374,14 @@ ul {
   fill: var(--icons-color);
 }
 
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
+.clients:hover .clients-icon,
+.clients:focus .clients-icon {
   fill: var(--accent-color);
 }
 
+
 /* -----Our Clients----- */
+
 
 /* ---Footer---- */
 .footer {
