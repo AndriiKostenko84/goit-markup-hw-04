@@ -360,7 +360,8 @@ ul {
   gap: 30px;
 }
 
-.clients {
+
+.clients-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -368,20 +369,12 @@ ul {
   border-radius: 4px;
   width: 170px;
   height: 92px;
-}
-
-.clients-link {
   fill: var(--icons-color);
 }
 
-.clients:hover .clients-icon,
-.clients:focus .clients-icon {
+.clients .clients-link:hover,
+.clients .clients-link:focus {
   fill: var(--accent-color);
-}
-
-.clients:hover,
-.clients:focus {
-  border-color: var(--accent-color);
 }
 
 /* -----Our Clients----- */
